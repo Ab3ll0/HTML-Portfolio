@@ -1,0 +1,111 @@
+p {
+    color: rgb(27, 123, 145);
+    font: small-caps bold 17px Courier;
+    text-decoration: underline;
+}
+
+ol {
+    display: flex;
+}
+
+li {
+    margin: 20px;
+}
+
+.important {
+    background-color: yellow;
+    color: red;
+    font-weight: bold
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+#example {
+    border: 10px solid blue;
+    padding: 0.5em;
+    width: 150px;
+    height: 100px;
+    float: right;
+}
+
+#blank_box {
+    border: 10px dashed salmon;
+    padding: 0.25em;
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+#color_experiment {
+    color: rgb(127, 125, 0)
+}
+
+h1 {
+    font-family: Impact;
+}
+
+h2 {
+    font-family: Impact;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.red {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.black {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+
+.container {
+    border: 5px solid black;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blue_box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(172, 183, 194);
+    width: 300px;
+}
+
+.X {
+    outline: solid white;
+    width: 100px;
+    height: 100px;
+    font-size: 580%;
+    font-family: monospace;
+    text-align: center;
+}
+
+.O {
+    outline: solid white;
+    width: 100px;
+    height: 100px;
+    font-size: 580%;
+    font-family: monospace;
+    text-align: center;
+}
+
+.blank {
+
+    outline: solid white;
+    width: 100px;
+    height: 100px;
+}
